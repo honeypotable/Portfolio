@@ -37,6 +37,7 @@
 /* Universal tags */
 * {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -112,6 +113,7 @@ p {
 #navbar.navbar--dark{
   background-color: var(--color-pink);
   padding: 8px;
+  z-index: 1;
 }
 
 .navbar__menu {
